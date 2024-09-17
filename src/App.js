@@ -1,14 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Weather from './Weather';
+import React from 'react'
 
 function App() {
   return (
-    <div className="weather-conatiner">
-      <Weather/> 
+    <div>
+      <h1> Props drilling</h1>
     </div>
-
-  );
+  )
 }
 
-export default App;
+export default App
